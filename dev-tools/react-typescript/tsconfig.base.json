@@ -1,0 +1,17 @@
+/*
+
+{
+    "extends": "./tsconfig.base.json"
+}
+
+*/
+
+{
+    "rules": {
+        "semicolon": false
+    },
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": { }
+    }
+}
