@@ -1,0 +1,24 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": [ "src/assets/*" ],
+      "@components/*": [ "src/components/*" ],
+      "@configs/*": [ "src/configs/*" ],
+      "@containers/*": [ "src/containers/*" ],
+      "@modules/*": [ "src/modules/*" ],
+      "@stores/*": [ "src/stores/*" ],
+      "@utils": [ "src/utils/index" ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "types.d.ts"
+  ],
+  "exclude": [
+    "node_modules/*",
+    "__sapper__/*",
+    "public/*"
+  ]
+}

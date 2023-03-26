@@ -1,0 +1,11 @@
+:root {
+    --font-color: #5a5a5a;
+    
+    --background-color: #efefef;
+    
+    --spacing: 15px;
+    --spacing-vertical: 15px 0;
+    --spacing-horizontal: 0 15px; 
+
+    --max-width: 1400px;
+}
