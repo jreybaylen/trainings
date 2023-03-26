@@ -1,0 +1,12 @@
+{
+    "watch": [
+        "main.ts",
+        "db/**/*",
+        "config/**/*"
+    ],
+    "ignore": [
+        "*.json"
+    ],
+    "ext": "ts, json",
+    "exec": "node -r tsconfig-paths/register -r ts-node/register ./main.ts"
+}

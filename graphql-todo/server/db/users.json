@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "age": 27,
+            "name": "John Rey Baylen",
+            "username": "john.rey.baylen@gmail.com",
+            "nationality": "PHILIPPINES",
+            "friends": []
+        },
+        {
+            "id": 2,
+            "age": 29,
+            "name": "Christy Baylen",
+            "username": "christy.baylen@gmail.com",
+            "nationality": "PHILIPPINES",
+            "friends": []
+        }
+    ]
+}
